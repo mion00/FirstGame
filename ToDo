@@ -1,1 +1,12 @@
-blah
+Classe Giocatore
+    int vite=3;
+
+    public int getX()
+    public int getY()
+    public int getLifes()
+    public void move (String direction)
+        up, down, left, right
+    public void looseLife()
+
+
+    
