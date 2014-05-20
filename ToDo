@@ -1,5 +1,11 @@
-Classe Giocatore
-    int vite=3;
+@ vuol dire fatto
+
+Class Player
+{
+    intanto Cirlce player;
+    int lifes=3;
+    int x;
+    int y;
 
     public int getX()
     public int getY()
@@ -7,6 +13,31 @@ Classe Giocatore
     public void move (String direction)
         up, down, left, right
     public void looseLife()
+    public void getLife()
+}
 
+Class Grid
+{
+    GridPane grid;
+    Tile[][] matrix;
+    int lato;
+
+    Grid(int lato)
+    @ public GridPane get()
+    @ private void populate(double dim) !Per ade solo tile di default!
+}
+
+Class Tile
+{
+    Rectangle tile;
+    int i;
+    int j;
+
+    @ Tile(double dim, int i, int j)
+    @ public int getI()
+    @ public int getJ()
+    @ public Rectangle get()
+    @ public Paint getFill()
+}
 
     
