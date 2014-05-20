@@ -2,18 +2,19 @@
 
 Class Player
 {
-    intanto Cirlce player;
-    int lifes=3;
+    Circle player;
+    int lifes;
     int x;
     int y;
 
-    public int getX()
-    public int getY()
-    public int getLifes()
+    @ Player(int lifes)
+    @ public int getX()
+    @ public int getY()
+    @ public int getLifes()
     public void move (String direction)
         up, down, left, right
-    public void looseLife()
-    public void getLife()
+    @ public void looseLife()
+    @ public void getLife()
 }
 
 Class Grid
